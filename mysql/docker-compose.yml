@@ -13,4 +13,4 @@ services:
       - "3306:3306/tcp"
     environment:
       MYSQL_ROOT_PASSWORD: password
-      MYSQL_DATABASE: auth
+      MYSQL_DATABASE: security
