@@ -1,0 +1,32 @@
+#upstream view {
+#        ip_hash;
+#	server view:3000;
+#        server view-2:3000;
+}
+#upstream api {
+#        ip_hash;
+#	server api:8080;
+#        server api-2:8080;
+#}
+
+server {
+	listen       80;
+        server_name  localhost;
+ 
+        location / {
+            root   html;
+            index  index.html index.htm;
+	}
+
+#	location /view {
+#		proxy_pass http://view/;
+#	}
+
+#	location /api {
+#		proxy_pass http://api/;
+#	}
+
+	location /naver {
+                proxy_pass http://www.naver.com/;
+        }
+}
