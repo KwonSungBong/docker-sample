@@ -1,8 +1,0 @@
-version: '2.1'
-services:
-  nginx:
-    build:
-      context: ./
-    image: custom-nginx:latest
-    ports:
-      - "80:80/tcp"
