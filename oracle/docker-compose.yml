@@ -1,0 +1,10 @@
+version: '2'
+services:
+  database:
+    image: sath89/oracle-12c
+    volumes:
+      - ./data:/u01/app/oracle
+    ports:
+      - 1521:1521
+      - 8080:8080
+      - 5500:5500
