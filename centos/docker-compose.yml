@@ -1,0 +1,9 @@
+version: '2.1'
+
+services:
+  test:
+    image: kinogmt/centos-ssh:latest
+    ports:
+      - "22:22"
+      - "8080:8080"
+
