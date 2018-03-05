@@ -15,6 +15,11 @@ sudo yum install jenkins
 
 #
 
+sudo yum install git
+https://www.lesstif.com/pages/viewpage.action?pageId=14090808
+
+#
+
 https://stackoverflow.com/questions/42289957/installing-jenkins-in-linux-import-read-failed-1
 
 #####################################################################
