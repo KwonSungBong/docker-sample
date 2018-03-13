@@ -10,3 +10,7 @@ cd /work
 spark-submit   --class <your-class-name-with-package> \
       <your-jar-file.jar> \
       [<your-program-parameters>]
+
+##################################################################################
+
+https://docs.databricks.com/spark/latest/data-sources/read-parquet.html
