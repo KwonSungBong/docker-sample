@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  test:
+    image: rastasheep/ubuntu-sshd:16.04
+    ports:
+      - "222:22"
+
