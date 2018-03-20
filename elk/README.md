@@ -13,3 +13,6 @@ sudo chmod 777 kibana-log/
 sudo chmod 777 logstash-conf/
 sudo chmod 777 logstash-log/
 
+spring boot log back
+https://github.com/logstash/logstash-logback-encoder
+https://github.com/logstash/logstash-logback-encoder/blob/master/src/test/resources/logback-test.xml

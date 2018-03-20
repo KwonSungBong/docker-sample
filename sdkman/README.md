@@ -1,0 +1,1 @@
+http://sdkman.io/install.html
