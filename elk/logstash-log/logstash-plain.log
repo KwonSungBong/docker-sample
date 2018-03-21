@@ -1,0 +1,17 @@
+[2018-03-19T04:37:02,208][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/opt/logstash/modules/fb_apache/configuration"}
+[2018-03-19T04:37:02,211][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/opt/logstash/modules/netflow/configuration"}
+[2018-03-19T04:37:02,214][INFO ][logstash.setting.writabledirectory] Creating directory {:setting=>"path.queue", :path=>"/opt/logstash/data/queue"}
+[2018-03-19T04:37:02,216][INFO ][logstash.setting.writabledirectory] Creating directory {:setting=>"path.dead_letter_queue", :path=>"/opt/logstash/data/dead_letter_queue"}
+[2018-03-19T04:37:02,244][INFO ][logstash.agent           ] No persistent UUID file found. Generating new UUID {:uuid=>"ac497815-7bd9-4ce3-8a57-3bc9e24fab15", :path=>"/opt/logstash/data/uuid"}
+[2018-03-19T04:37:02,700][INFO ][logstash.outputs.elasticsearch] Elasticsearch pool URLs updated {:changes=>{:removed=>[], :added=>[http://localhost:9200/]}}
+[2018-03-19T04:37:02,702][INFO ][logstash.outputs.elasticsearch] Running health check to see if an Elasticsearch connection is working {:healthcheck_url=>http://localhost:9200/, :path=>"/"}
+[2018-03-19T04:37:02,770][WARN ][logstash.outputs.elasticsearch] Restored connection to ES instance {:url=>"http://localhost:9200/"}
+[2018-03-19T04:37:02,840][INFO ][logstash.outputs.elasticsearch] Using mapping template from {:path=>nil}
+[2018-03-19T04:37:02,842][INFO ][logstash.outputs.elasticsearch] Attempting to install template {:manage_template=>{"template"=>"logstash-*", "version"=>50001, "settings"=>{"index.refresh_interval"=>"5s"}, "mappings"=>{"_default_"=>{"_all"=>{"enabled"=>true, "norms"=>false}, "dynamic_templates"=>[{"message_field"=>{"path_match"=>"message", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false}}}, {"string_fields"=>{"match"=>"*", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false, "fields"=>{"keyword"=>{"type"=>"keyword", "ignore_above"=>256}}}}}], "properties"=>{"@timestamp"=>{"type"=>"date", "include_in_all"=>false}, "@version"=>{"type"=>"keyword", "include_in_all"=>false}, "geoip"=>{"dynamic"=>true, "properties"=>{"ip"=>{"type"=>"ip"}, "location"=>{"type"=>"geo_point"}, "latitude"=>{"type"=>"half_float"}, "longitude"=>{"type"=>"half_float"}}}}}}}}
+[2018-03-19T04:37:02,850][INFO ][logstash.outputs.elasticsearch] Installing elasticsearch template to _template/logstash
+[2018-03-19T04:37:03,138][INFO ][logstash.outputs.elasticsearch] New Elasticsearch output {:class=>"LogStash::Outputs::ElasticSearch", :hosts=>["//localhost:9200"]}
+[2018-03-19T04:37:03,140][INFO ][logstash.pipeline        ] Starting pipeline {"id"=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>5, "pipeline.max_inflight"=>500}
+[2018-03-19T04:37:03,254][INFO ][logstash.pipeline        ] Pipeline main started
+[2018-03-19T04:37:03,291][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2018-03-19T04:37:13,520][WARN ][logstash.runner          ] SIGTERM received. Shutting down the agent.
+[2018-03-19T04:37:13,527][WARN ][logstash.agent           ] stopping pipeline {:id=>"main"}

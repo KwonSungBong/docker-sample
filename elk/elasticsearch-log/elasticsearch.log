@@ -1,0 +1,92 @@
+[2018-03-19T04:21:49,034][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-03-19T04:21:49,160][INFO ][o.e.e.NodeEnvironment    ] [UHNdVCE] using [1] data paths, mounts [[/var/lib/elasticsearch (/dev/sdb1)]], net usable_space [698.7gb], net total_space [916.7gb], spins? [possibly], types [ext4]
+[2018-03-19T04:21:49,160][INFO ][o.e.e.NodeEnvironment    ] [UHNdVCE] heap size [5.9gb], compressed ordinary object pointers [true]
+[2018-03-19T04:21:49,162][INFO ][o.e.n.Node               ] node name [UHNdVCE] derived from node ID [UHNdVCEhRcaJqXeqjCOMlg]; set [node.name] to override
+[2018-03-19T04:21:49,162][INFO ][o.e.n.Node               ] version[5.6.4], pid[69], build[8bbedf5/2017-10-31T18:55:38.105Z], OS[Linux/4.4.0-53-generic/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/1.8.0_151/25.151-b12]
+[2018-03-19T04:21:49,162][INFO ][o.e.n.Node               ] JVM arguments [-Xms6g, -Xmx6g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/opt/elasticsearch]
+[2018-03-19T04:21:49,670][INFO ][o.e.p.PluginsService     ] [UHNdVCE] loaded module [aggs-matrix-stats]
+[2018-03-19T04:21:49,670][INFO ][o.e.p.PluginsService     ] [UHNdVCE] loaded module [ingest-common]
+[2018-03-19T04:21:49,670][INFO ][o.e.p.PluginsService     ] [UHNdVCE] loaded module [lang-expression]
+[2018-03-19T04:21:49,670][INFO ][o.e.p.PluginsService     ] [UHNdVCE] loaded module [lang-groovy]
+[2018-03-19T04:21:49,670][INFO ][o.e.p.PluginsService     ] [UHNdVCE] loaded module [lang-mustache]
+[2018-03-19T04:21:49,670][INFO ][o.e.p.PluginsService     ] [UHNdVCE] loaded module [lang-painless]
+[2018-03-19T04:21:49,670][INFO ][o.e.p.PluginsService     ] [UHNdVCE] loaded module [parent-join]
+[2018-03-19T04:21:49,670][INFO ][o.e.p.PluginsService     ] [UHNdVCE] loaded module [percolator]
+[2018-03-19T04:21:49,671][INFO ][o.e.p.PluginsService     ] [UHNdVCE] loaded module [reindex]
+[2018-03-19T04:21:49,671][INFO ][o.e.p.PluginsService     ] [UHNdVCE] loaded module [transport-netty3]
+[2018-03-19T04:21:49,671][INFO ][o.e.p.PluginsService     ] [UHNdVCE] loaded module [transport-netty4]
+[2018-03-19T04:21:49,671][INFO ][o.e.p.PluginsService     ] [UHNdVCE] no plugins loaded
+[2018-03-19T04:21:50,492][INFO ][o.e.d.DiscoveryModule    ] [UHNdVCE] using discovery type [zen]
+[2018-03-19T04:21:50,805][INFO ][o.e.n.Node               ] initialized
+[2018-03-19T04:21:50,805][INFO ][o.e.n.Node               ] [UHNdVCE] starting ...
+[2018-03-19T04:21:51,006][INFO ][o.e.t.TransportService   ] [UHNdVCE] publish_address {172.18.0.2:9300}, bound_addresses {[::]:9300}
+[2018-03-19T04:21:51,013][INFO ][o.e.b.BootstrapChecks    ] [UHNdVCE] bound or publishing to a non-loopback or non-link-local address, enforcing bootstrap checks
+[2018-03-19T04:21:51,015][ERROR][o.e.b.Bootstrap          ] [UHNdVCE] node validation exception
+[1] bootstrap checks failed
+[1]: max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2018-03-19T04:21:51,017][INFO ][o.e.n.Node               ] [UHNdVCE] stopping ...
+[2018-03-19T04:21:51,027][INFO ][o.e.n.Node               ] [UHNdVCE] stopped
+[2018-03-19T04:21:51,027][INFO ][o.e.n.Node               ] [UHNdVCE] closing ...
+[2018-03-19T04:21:51,033][INFO ][o.e.n.Node               ] [UHNdVCE] closed
+[2018-03-19T04:25:53,459][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-03-19T04:25:53,563][INFO ][o.e.e.NodeEnvironment    ] [UHNdVCE] using [1] data paths, mounts [[/var/lib/elasticsearch (/dev/sdb1)]], net usable_space [698.3gb], net total_space [916.7gb], spins? [possibly], types [ext4]
+[2018-03-19T04:25:53,563][INFO ][o.e.e.NodeEnvironment    ] [UHNdVCE] heap size [5.9gb], compressed ordinary object pointers [true]
+[2018-03-19T04:25:53,564][INFO ][o.e.n.Node               ] node name [UHNdVCE] derived from node ID [UHNdVCEhRcaJqXeqjCOMlg]; set [node.name] to override
+[2018-03-19T04:25:53,564][INFO ][o.e.n.Node               ] version[5.6.4], pid[67], build[8bbedf5/2017-10-31T18:55:38.105Z], OS[Linux/4.4.0-53-generic/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/1.8.0_151/25.151-b12]
+[2018-03-19T04:25:53,564][INFO ][o.e.n.Node               ] JVM arguments [-Xms6g, -Xmx6g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/opt/elasticsearch]
+[2018-03-19T04:25:54,077][INFO ][o.e.p.PluginsService     ] [UHNdVCE] loaded module [aggs-matrix-stats]
+[2018-03-19T04:25:54,077][INFO ][o.e.p.PluginsService     ] [UHNdVCE] loaded module [ingest-common]
+[2018-03-19T04:25:54,077][INFO ][o.e.p.PluginsService     ] [UHNdVCE] loaded module [lang-expression]
+[2018-03-19T04:25:54,077][INFO ][o.e.p.PluginsService     ] [UHNdVCE] loaded module [lang-groovy]
+[2018-03-19T04:25:54,077][INFO ][o.e.p.PluginsService     ] [UHNdVCE] loaded module [lang-mustache]
+[2018-03-19T04:25:54,077][INFO ][o.e.p.PluginsService     ] [UHNdVCE] loaded module [lang-painless]
+[2018-03-19T04:25:54,077][INFO ][o.e.p.PluginsService     ] [UHNdVCE] loaded module [parent-join]
+[2018-03-19T04:25:54,077][INFO ][o.e.p.PluginsService     ] [UHNdVCE] loaded module [percolator]
+[2018-03-19T04:25:54,077][INFO ][o.e.p.PluginsService     ] [UHNdVCE] loaded module [reindex]
+[2018-03-19T04:25:54,077][INFO ][o.e.p.PluginsService     ] [UHNdVCE] loaded module [transport-netty3]
+[2018-03-19T04:25:54,077][INFO ][o.e.p.PluginsService     ] [UHNdVCE] loaded module [transport-netty4]
+[2018-03-19T04:25:54,078][INFO ][o.e.p.PluginsService     ] [UHNdVCE] no plugins loaded
+[2018-03-19T04:25:54,871][INFO ][o.e.d.DiscoveryModule    ] [UHNdVCE] using discovery type [zen]
+[2018-03-19T04:25:55,180][INFO ][o.e.n.Node               ] initialized
+[2018-03-19T04:25:55,180][INFO ][o.e.n.Node               ] [UHNdVCE] starting ...
+[2018-03-19T04:25:55,342][INFO ][o.e.t.TransportService   ] [UHNdVCE] publish_address {172.18.0.2:9300}, bound_addresses {[::]:9300}
+[2018-03-19T04:25:55,349][INFO ][o.e.b.BootstrapChecks    ] [UHNdVCE] bound or publishing to a non-loopback or non-link-local address, enforcing bootstrap checks
+[2018-03-19T04:25:55,351][ERROR][o.e.b.Bootstrap          ] [UHNdVCE] node validation exception
+[1] bootstrap checks failed
+[1]: max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2018-03-19T04:25:55,352][INFO ][o.e.n.Node               ] [UHNdVCE] stopping ...
+[2018-03-19T04:25:55,366][INFO ][o.e.n.Node               ] [UHNdVCE] stopped
+[2018-03-19T04:25:55,366][INFO ][o.e.n.Node               ] [UHNdVCE] closing ...
+[2018-03-19T04:25:55,374][INFO ][o.e.n.Node               ] [UHNdVCE] closed
+[2018-03-19T04:36:48,842][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-03-19T04:36:48,994][INFO ][o.e.e.NodeEnvironment    ] [UHNdVCE] using [1] data paths, mounts [[/var/lib/elasticsearch (/dev/sdb1)]], net usable_space [698.3gb], net total_space [916.7gb], spins? [possibly], types [ext4]
+[2018-03-19T04:36:48,995][INFO ][o.e.e.NodeEnvironment    ] [UHNdVCE] heap size [5.9gb], compressed ordinary object pointers [true]
+[2018-03-19T04:36:48,996][INFO ][o.e.n.Node               ] node name [UHNdVCE] derived from node ID [UHNdVCEhRcaJqXeqjCOMlg]; set [node.name] to override
+[2018-03-19T04:36:48,996][INFO ][o.e.n.Node               ] version[5.6.4], pid[69], build[8bbedf5/2017-10-31T18:55:38.105Z], OS[Linux/4.4.0-53-generic/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/1.8.0_151/25.151-b12]
+[2018-03-19T04:36:48,996][INFO ][o.e.n.Node               ] JVM arguments [-Xms6g, -Xmx6g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/opt/elasticsearch]
+[2018-03-19T04:36:49,492][INFO ][o.e.p.PluginsService     ] [UHNdVCE] loaded module [aggs-matrix-stats]
+[2018-03-19T04:36:49,492][INFO ][o.e.p.PluginsService     ] [UHNdVCE] loaded module [ingest-common]
+[2018-03-19T04:36:49,492][INFO ][o.e.p.PluginsService     ] [UHNdVCE] loaded module [lang-expression]
+[2018-03-19T04:36:49,493][INFO ][o.e.p.PluginsService     ] [UHNdVCE] loaded module [lang-groovy]
+[2018-03-19T04:36:49,493][INFO ][o.e.p.PluginsService     ] [UHNdVCE] loaded module [lang-mustache]
+[2018-03-19T04:36:49,493][INFO ][o.e.p.PluginsService     ] [UHNdVCE] loaded module [lang-painless]
+[2018-03-19T04:36:49,493][INFO ][o.e.p.PluginsService     ] [UHNdVCE] loaded module [parent-join]
+[2018-03-19T04:36:49,493][INFO ][o.e.p.PluginsService     ] [UHNdVCE] loaded module [percolator]
+[2018-03-19T04:36:49,493][INFO ][o.e.p.PluginsService     ] [UHNdVCE] loaded module [reindex]
+[2018-03-19T04:36:49,493][INFO ][o.e.p.PluginsService     ] [UHNdVCE] loaded module [transport-netty3]
+[2018-03-19T04:36:49,493][INFO ][o.e.p.PluginsService     ] [UHNdVCE] loaded module [transport-netty4]
+[2018-03-19T04:36:49,493][INFO ][o.e.p.PluginsService     ] [UHNdVCE] no plugins loaded
+[2018-03-19T04:36:50,289][INFO ][o.e.d.DiscoveryModule    ] [UHNdVCE] using discovery type [zen]
+[2018-03-19T04:36:50,609][INFO ][o.e.n.Node               ] initialized
+[2018-03-19T04:36:50,609][INFO ][o.e.n.Node               ] [UHNdVCE] starting ...
+[2018-03-19T04:36:50,795][INFO ][o.e.t.TransportService   ] [UHNdVCE] publish_address {172.18.0.2:9300}, bound_addresses {[::]:9300}
+[2018-03-19T04:36:50,811][INFO ][o.e.b.BootstrapChecks    ] [UHNdVCE] bound or publishing to a non-loopback or non-link-local address, enforcing bootstrap checks
+[2018-03-19T04:36:53,854][INFO ][o.e.c.s.ClusterService   ] [UHNdVCE] new_master {UHNdVCE}{UHNdVCEhRcaJqXeqjCOMlg}{tFkE7yjhRUGKRcTs8_tqhA}{172.18.0.2}{172.18.0.2:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2018-03-19T04:36:53,890][INFO ][o.e.h.n.Netty4HttpServerTransport] [UHNdVCE] publish_address {172.18.0.2:9200}, bound_addresses {[::]:9200}
+[2018-03-19T04:36:53,890][INFO ][o.e.n.Node               ] [UHNdVCE] started
+[2018-03-19T04:36:53,945][INFO ][o.e.g.GatewayService     ] [UHNdVCE] recovered [0] indices into cluster_state
+[2018-03-19T04:37:02,367][INFO ][o.e.c.m.MetaDataCreateIndexService] [UHNdVCE] [.kibana] creating index, cause [api], templates [], shards [1]/[1], mappings [_default_, index-pattern, server, visualization, search, timelion-sheet, config, dashboard, url]
+[2018-03-19T04:37:12,871][INFO ][o.e.n.Node               ] [UHNdVCE] stopping ...
+[2018-03-19T04:37:13,381][INFO ][o.e.n.Node               ] [UHNdVCE] stopped
+[2018-03-19T04:37:13,382][INFO ][o.e.n.Node               ] [UHNdVCE] closing ...
+[2018-03-19T04:37:13,389][INFO ][o.e.n.Node               ] [UHNdVCE] closed
