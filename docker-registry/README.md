@@ -1,0 +1,1 @@
+https://github.com/kwk/docker-registry-setup/blob/master/docker-compose.yml
