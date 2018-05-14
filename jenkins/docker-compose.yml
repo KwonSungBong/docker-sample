@@ -3,7 +3,7 @@ services:
   jenkins:
     image: jenkins:latest
     ports:
-      - "8080:8080/tcp"
+      - "8888:8080/tcp"
       - "50000:50000/tcp"
-    volumes:
-      - "./jenkins:/var/jenkins_home"
+#    volumes:
+#      - "./jenkins:/var/jenkins_home"
