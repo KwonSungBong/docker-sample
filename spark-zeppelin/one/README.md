@@ -38,3 +38,12 @@ https://zeppelin.apache.org/docs/0.5.5-incubating/tutorial/tutorial.html
 
 
 https://spark.apache.org/docs/2.1.0/monitoring.html
+
+
+#####################################################################################
+
+https://zeppelin.apache.org/docs/0.6.1/interpreter/jdbc.html#apply-zeppelin-dynamic-forms
+
+
+
+
