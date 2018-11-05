@@ -1,0 +1,6 @@
+version: '2.1'
+services:
+  database:
+    image: wnameless/oracle-xe-11g
+    ports:
+      - 1521:1521
