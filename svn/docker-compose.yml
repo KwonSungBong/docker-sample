@@ -1,0 +1,8 @@
+version: '2.1'
+services:
+  svn-server:
+    image: garethflowers/svn-server:latest
+    ports:
+      - "3690:3690/tcp"
+    volumes:
+      - ./data:/var/opt/svn
