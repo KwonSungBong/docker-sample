@@ -1,0 +1,7 @@
+version: '3'
+services:
+  nginx-static:
+    build:
+      context: ./
+    ports:
+      - 5000:90
